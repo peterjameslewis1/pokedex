@@ -69,5 +69,5 @@ axios.get('https://pokeapi.co/api/v2/pokedex/2/').then((data) => {
                 });
         });
     }
-    console.log(data);
+    console.log(data.data);
 });
